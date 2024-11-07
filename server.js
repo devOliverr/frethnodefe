@@ -13,7 +13,7 @@ const app = express();
 const corsOptions = {
   origin: function (origin, callback) {
     // Allow multiple specific origins
-    const allowedOrigins = ['https://ethnodefe.vercel.app', 'https://dashboard.mine88.info', 'https://dash.mine88.info', 'https://ethnodefe2.vercel.app' ];
+    const allowedOrigins = ['https://ethnodefe.vercel.app', 'https://dashboard.mine88.info', 'https://dash.mine88.info', 'https://frethnodebe.vercel.app' ];
 
     // If the request's origin is in the allowedOrigins list or if it's not provided (e.g., for same-origin requests)
     if (!origin || allowedOrigins.indexOf(origin) !== -1) {
